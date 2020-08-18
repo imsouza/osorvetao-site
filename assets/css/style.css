@@ -304,11 +304,8 @@ div.card div.card-title h2 {
   padding: 0;
 }
 
-div.card div.card-title h2 small {
+div.card div.card-title h6 {
   display: block;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: -0.025em;
 }
 
 div.card div.card-description {
@@ -347,7 +344,7 @@ div.card div.flap2 {
 
 div.cards.showing div.card {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.5;
   -webkit-transform: scale(0.88);
   transform: scale(0.88);
 }
