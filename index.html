@@ -21,7 +21,7 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" class="bg-light">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-pink fixed-top" id="mainNav">
@@ -33,10 +33,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#about">Cardápio</a>
+            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#services">Nosso Serviço</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#services">Avaliações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#services">Galeria</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#contact">Onde Estamos?</a>
@@ -52,25 +58,151 @@
     </div>
   </header>
 
-  <section id="about">
-    <div class="container">
-      <div class="">
-        <div class="col-lg-6 mx-auto">
-          <h2 class="text-center mb-5">Cardápio</h2>
-          <div class="d-flex justify-content-between">
-            menu
+  <section id="menu">
+    <div class="container-fluid">
+      <div class="mx-auto">
+        <h2 class="text-center mb-5 pb-1 text-pink font-weight-bolder">Cardápio</h2>
+          <div class="cards">
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?beach" alt="beach" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2 class="text-purple">
+                    Milkshakes
+                    <h5>Um jeito diferente de comer Pizza!</h5>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn hvr-bounce-to-right">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?wave" alt="pizza-cone" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2 class="text-orange">
+                    Pizza Cone
+                    <h5>Um jeito diferente de comer Pizza!</h5>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn hvr-bounce-to-right">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__image-holder">
+                <img class="card__image" src="https://source.unsplash.com/300x225/?mountain" alt="mountain" />
+              </div>
+              <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                  <span class="left"></span>
+                  <span class="right"></span>
+                </a>
+                <h2 class="text-pink">
+                    Sorvetes
+                    <h5>Um jeito diferente de comer Pizza!</h5>
+                </h2>
+              </div>
+              <div class="card-flap flap1">
+                <div class="card-description">
+                  This grid is an attempt to make something nice that works on touch devices. Ignoring hover states when they're not available etc.
+                </div>
+                <div class="card-flap flap2">
+                  <div class="card-actions">
+                    <a href="#" class="btn hvr-bounce-to-right">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
       </div>
     </div>
   </section>
 
-  <section id="services" class="bg-light">
+  <section id="services" class="bg-pink">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        <div class="mx-auto">
+          <h2 class="text-white mb-5 text-center font-weight-bolder">Qualidade e muito Sabor!</h2>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-12 col-xs-12 mx-auto row d-flex justify-content-center align-content-center align-items-center">
+        <div class="hvr-float d-flex justify-content-center align-items-center flex-column text-center m-4">
+          <img src="assets/images/speed.png" alt="delivery" width="70">
+          <div class="text-white font-weight-bolder">
+            Delivery Rápido
+            <div class="d-flex justify-content-center">
+              <span class="bar">&nbsp;</span>
+            </div>
+            <h6 class="text-center">
+              Entregamos seu pedido<br>em poucos minutos<br> sem complicações!
+            </h6>
+          </div>
+        </div>
+
+        <div class="d-flex hvr-float justify-content-center align-items-center flex-column text-center m-4">
+          <img src="assets/images/grocery.png" alt="delivery" width="70">
+          <div class="text-white font-weight-bolder">
+            Ingredientes Selecionados
+            <div class="d-flex justify-content-center">
+              <span class="bar">&nbsp;</span>
+            </div>
+            <h6 class="text-center">
+              Entregamos seu pedido em<br> poucos minutos<br> sem complicações!
+            </h6>
+          </div>
+        </div>
+
+        <div class="d-flex hvr-float justify-content-center align-items-center flex-column text-center m-4">
+          <img src="assets/images/menu.png" alt="sabores" width="70">
+          <div class="text-white font-weight-bolder">
+            Variedade de Sabores
+            <div class="d-flex justify-content-center">
+              <span class="bar">&nbsp;</span>
+            </div>
+            <h6 class="text-center">
+              Entregamos seu pedido em<br> poucos minutos<br> sem complicações!
+            </h6>
+          </div>
+        </div>
+
+        <div class="d-flex hvr-float justify-content-center align-items-center flex-column text-center m-4">
+          <img src="assets/images/bag.png" alt="embalagem" width="70">
+          <div class="text-white font-weight-bolder">
+            Embalagem 10/10
+            <div class="d-flex justify-content-center">
+              <span class="bar">&nbsp;</span>
+            </div>
+            <h6 class="text-center">
+              Entregamos seu pedido em<br> poucos minutos<br> sem complicações!
+            </h6>
+          </div>
         </div>
       </div>
     </div>
