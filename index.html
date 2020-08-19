@@ -31,7 +31,7 @@
         <div class="animated-icon1"><span></span><span></span><span></span></div>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto font-weight-bolder">
           <li class="nav-item">
             <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#menu">Cardápio</a>
           </li>
@@ -39,13 +39,13 @@
             <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#services">Nosso Serviço</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#services">Avaliações</a>
+            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#ratings">Avaliações</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#services">Galeria</a>
+            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#gallery">Galeria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#contact">Onde Estamos?</a>
+            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#location">Onde Estamos?</a>
           </li>
         </ul>
       </div>
@@ -149,7 +149,7 @@
     <div class="container">
       <div class="row">
         <div class="mx-auto">
-          <h2 class="text-white mb-5 text-center font-weight-bolder">Qualidade e Sabor!</h2>
+          <h2 class="text-white mb-5 pb-3 text-center font-weight-bolder">Qualidade e Sabor!</h2>
         </div>
       </div>
       <div class="col-md-12 col-lg-12 col-xs-12 mx-auto row d-flex justify-content-center align-content-center align-items-center">
@@ -208,14 +208,58 @@
     </div>
   </section>
 
-  <section id="contact">
+  <section id="ratings" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        <div class="col-lg-12 mx-auto">
+          <h2 class="mb-5 pb-1 text-center text-pink font-weight-bolder">Avaliações</h2>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner text-center lead">
+              <div class="carousel-item active">
+                <img width="100" src="assets/images/rate.png" alt="Estrelas"><br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry1.
+              </div>
+              <div class="carousel-item">
+                <img width="100" src="assets/images/rate.png" alt="Estrelas"><br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry2.
+              </div>
+              <div class="carousel-item">
+                <img width="100" src="assets/images/rate.png" alt="Estrelas"><br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry3.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
+
+
+  <section id="gallery" class="bg-pink">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h2 class="mb-5 pb-5 text-center text-white font-weight-bolder">Galeria</h2>
+        </div>
+      </div>
+    </div>
+    <!-- LightWidget WIDGET -->
+    <div>
+     <iframe src="//lightwidget.com/widgets/ef777e3d4942536caea78a8805684b56.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+    </div>
+  </section>
+
+
+  <section id="location" class="bg-light pb-0 mb-0">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h2 class="mb-5 pb-5 text-center text-pink font-weight-bolder">Onde Estamos?</h2>
+        </div>
+      </div>
+    </div>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15935.845368570073!2d-60.0632878!3d-3.1049243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe0def756f39223f8!2sO%20Sorvet%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1597850618892!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
   </section>
 
@@ -235,6 +279,7 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom JavaScript for this theme -->
+  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
   <script src="assets/js/scrolling-nav.js"></script>
   <script src="assets/js/script.js"></script>
 
