@@ -1,11 +1,11 @@
 /* Colors */
 
 .bg-pink {
-  background-color: #DF1B59;
+  background-color: #ed2445;
 }
 
 .text-pink {
-	color: #DF1B59;
+	color: #ed2445;
 }
 
 .bg-red {
@@ -33,7 +33,15 @@
 }
 
 .text-yellow {
-	color: #FCD20C;
+	color: #F7DF02;
+}
+
+.bg-yellow {
+  background-color: #F7DF02;
+}
+
+.bg-blue {
+  background-color: #2098D1;
 }
 
 /* Background Gradient */
@@ -194,7 +202,7 @@ body {
 }
 
 a.btn {
-  background: #0581CD;
+  background: #0E66B6;
   border-radius: 4px;
   box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
   color: #ffffff;
@@ -207,7 +215,7 @@ a.btn {
 }
 
 .no-touch a.btn:hover {
-  background: #0581CD;
+  background: #0E66B6;
   box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
@@ -217,7 +225,7 @@ a.btn {
 
 .no-touch a.btn:active,
 a.btn:active {
-  background: #0581CD;
+  background: #0E66B6;
   box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
   -webkit-transform: translate3d(0, 1px, 0);
   transform: translate3d(0, 1px, 0);
@@ -408,9 +416,13 @@ div.card.show div.flap2 {
 	align-content: center;
 	justify-content: center;
 	margin: 10px;
-	background-color: #FCD20C;
+	background-color: #F7DF02;
 }
 
+.btn-hover:hover {
+  color: #ed2445;
+}
 
-/* Gallery */
-
+.btn-hover2:hover {
+  color: #F28705;
+}

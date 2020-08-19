@@ -21,7 +21,7 @@
 
 </head>
 
-<body id="page-top" class="bg-light">
+<body id="page-top" class="bg-pink">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-pink fixed-top" id="mainNav">
@@ -42,9 +42,6 @@
             <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#ratings">Avaliações</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#gallery">Galeria</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link text-white js-scroll-trigger hvr-underline-reveal" href="#location">Onde Estamos?</a>
           </li>
         </ul>
@@ -58,7 +55,7 @@
     </div>
   </header>
 
-  <section id="menu">
+  <section id="menu" class="bg-light ">
     <div class="container-fluid">
       <div class="mx-auto">
         <h2 class="text-center mb-5 pb-1 text-pink font-weight-bolder">Cardápio</h2>
@@ -234,27 +231,11 @@
     </div>
   </section>
 
-
-  <section id="gallery" class="bg-pink">
+  <section id="location" class="bg-blue pb-0 mb-0">
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 mx-auto">
-          <h2 class="mb-5 pb-5 text-center text-white font-weight-bolder">Galeria</h2>
-        </div>
-      </div>
-    </div>
-    <!-- LightWidget WIDGET -->
-    <div>
-     <iframe src="//lightwidget.com/widgets/ef777e3d4942536caea78a8805684b56.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-    </div>
-  </section>
-
-
-  <section id="location" class="bg-light pb-0 mb-0">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 mx-auto">
-          <h2 class="mb-5 pb-5 text-center text-pink font-weight-bolder">Onde Estamos?</h2>
+          <h2 class="mb-5 pb-5 text-center text-white font-weight-bolder">Onde Estamos?</h2>
         </div>
       </div>
     </div>
@@ -264,12 +245,46 @@
   </section>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+
+  <!-- Copyright -->
+  <footer class="bg-blue pt-4">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+      <div class="d-flex justify-content-around text-white text-center flex-wrap">
+        <div>
+          <h5 class="text-yellow font-weight-bolder">Endereço:</h5>
+          <p>Rua T8, 1A - Loja 2 - Compensa<br>
+             Próximo ao CMPM 8 - Manaus, Amazonas</p>
+        </div>
+
+        <div>
+          <h5 class="text-yellow font-weight-bolder">Funcionamento:</h5>
+          <p>Segunda-feira <strong>Fechado</strong><br>
+             Terça-feira à Domingo  <strong>18h - 23:30h</strong></p>
+        </div>
+
+        <div>
+          <h5 class="text-yellow font-weight-bolder">Faça seu pedido!</h5>
+          <button class="btn btn-hover btn-lg hvr-float bg-yellow text-pink font-weight-bolder">Clique Aqui!</button>
+        </div>
+
+        <div>
+          <h5 class="text-yellow font-weight-bolder">Nos siga nas<br>redes sociais!</h5>
+          <div class="d-flex justify-content-around">
+            <a href=""><img class="hvr-grow-rotate" src="assets/images/instagram.png" width="30" alt="Instagram" target="_blank"></a>
+            <a href=""><img class="hvr-float" src="assets/images/facebook.png" width="30" alt="Facebook" target="_blank"></a>
+            <a href=""><img class="hvr-buzz-out" src="assets/images/whatsapp.png" width="30" alt="WhatsApp" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+      <hr class="w-100 clearfix">
     </div>
     <!-- /.container -->
-  </footer>
+  </footer >
+
+<copyright class="pt-2 bg-pink">
+  <p class="m-0 text-center text-yellow">Copyright &copy; <strong>O Sorvetão</strong></p>
+  <p class="text-center text-yellow" style="font-size: 11px;">Desenvolvido por <a href="https://www.github.com/imsouza" target="_blank" class="text-yellow btn-hover2" style="text-decoration: none; font-size: 11px;">Mateus Almeida</a></p>
+</copyright>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -279,7 +294,6 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom JavaScript for this theme -->
-  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
   <script src="assets/js/scrolling-nav.js"></script>
   <script src="assets/js/script.js"></script>
 
