@@ -329,7 +329,7 @@ div.card div.card-actions {
 }
 
 div.card div.card-flap {
-  background: #d9d9d9;
+  background: rgba(0, 0, 0, 0.040);
   position: absolute;
   width: 100%;
   -webkit-transform-origin: top;
@@ -426,3 +426,124 @@ div.card.show div.flap2 {
 .btn-hover2:hover {
   color: #F28705;
 }
+
+
+/* Return to Top Button */
+
+@media only screen and (min-width: 500px) {
+  #return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #F7DF02;
+    background: #F7DF02;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  #return-to-top i {
+    color: #951C47;
+    margin: 0;
+    position: relative;
+    left: 11px;
+    top: 9px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 1;
+  }
+  #return-to-top:hover {
+    background: #951C47;
+  }
+  #return-to-top:hover i {
+    color: #F7DF02;
+    top: 5px;
+  }
+}
+
+
+/* Wavy */
+
+.wave {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  color: none;
+  border: none;
+  background: linear-gradient(to bottom, #ed2445, #f03755);
+  height: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.wave::before, .wave::after {
+  content: "";
+  background: none;
+  color: none;
+  border: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat-x;
+}
+.wave::before {
+  background: none;
+  color: none;
+  border: none;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle at 10px -5px, transparent 12px, #F8F9FA 13px);
+}
+.wave::after {
+  background: none;
+  color: none;
+  border: none;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image: radial-gradient(circle at 10px 15px, #F8F9FA 12px, transparent 13px);
+}
+.wave--top {
+  background: linear-gradient(to top, #ed2445, #f03755);
+}
+.wave--top::before, .wave--top::after {
+  bottom: auto;
+  top: 0;
+}
+.wave--top::before {
+  background-image: radial-gradient(circle at 10px 15px, transparent 12px, #2098D1 13px);
+}
+.wave--top::after {
+  background-image: radial-gradient(circle at 10px 0, #2098D1 12px, transparent 13px);
+}
+
+.wave--top-white {
+  background: linear-gradient(to top, #ed2445, #f03755);
+}
+.wave--top-white::before, .wave--top-white::after {
+  bottom: auto;
+  top: 0;
+}
+.wave--top-white::before {
+  background-image: radial-gradient(circle at 10px 15px, transparent 12px, #F8F9FA 13px);
+}
+.wave--top-white::after {
+  background-image: radial-gradient(circle at 10px 0, #F8F9FA 12px, transparent 13px);
+}
+
+
+
