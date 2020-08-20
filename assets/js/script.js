@@ -59,3 +59,11 @@ $('#return-to-top').click(function() {      // When arrow is clicked
         scrollTop : 0                       // Scroll to top of body
     }, 500);
 });
+
+
+/* Link */
+
+$('.redirect').click(function(){
+  window.open('https://www.sistemadelivery.com/ordering/?restaurant_uid=d20b6424-102c-43b6-9920-ec26799d40ff&_sp=b4a3c0b6-d245-4a8c-a068-e23bd5e57f37.1597945023147&site_url=fallback');
+  return false;
+})
