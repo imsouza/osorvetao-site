@@ -320,6 +320,12 @@ div.card div.card-description {
   padding: 0 15px 10px;
   position: relative;
   font-size: 14px;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently */
 }
 
 div.card div.card-actions {
@@ -329,9 +335,10 @@ div.card div.card-actions {
 }
 
 div.card div.card-flap {
-  background: rgba(0, 0, 0, 0.040);
+  background: #ed2445;
   position: absolute;
   width: 100%;
+  color: transparent;
   -webkit-transform-origin: top;
   transform-origin: top;
   -webkit-transform: rotateX(-90deg);
@@ -386,6 +393,7 @@ div.card.show div.card-title a.toggle-info span.right {
 }
 
 div.card.show div.card-flap {
+  color: black;
   background: #ffffff;
   -webkit-transform: rotateX(0deg);
   transform: rotateX(0deg);
@@ -418,6 +426,18 @@ div.card.show div.flap2 {
 	margin: 10px;
 	background-color: #F7DF02;
 }
+
+.bar-blue {
+  width: 50px;
+  height: 3px;
+  display: flex;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+  background-color: #2098D1;
+}
+
 
 .btn-hover:hover {
   color: #951C47;
@@ -546,4 +566,32 @@ div.card.show div.flap2 {
 }
 
 
+/* Arrows */
 
+.arrow {
+  border: solid #F7DF02;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
