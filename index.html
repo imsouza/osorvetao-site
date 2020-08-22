@@ -18,12 +18,12 @@
   <link href="assets/css/scrolling-nav.css" rel="stylesheet">
   <link href="node_modules/hover.css/css/hover-min.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top" class="bg-pink">
-  <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+  <a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up"></i></a>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-pink fixed-top" id="mainNav">
     <div class="container">
@@ -51,8 +51,19 @@
   </nav>
 
   <header class="p-0">
-    <div>
-      <img class="img-fluid" width="100%" src="https://picsum.photos/1280/720">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid block-pointer" width="100%" src="assets/images/banner2.png">
+          <div class="carousel-caption text-center d-none d-md-block">
+            <h5 class="display-3 text-pink font-weight-bolder">O melhor de Manaus!</h5>
+            <p class="lead text-blue font-weight-bolder" style="font-size: 25px;">Confira nosso Cardápio</p>
+            <div class="arrow bounce mt-3 p-0 border-0">
+              <a class="fa fa-arrow-down fa-2x arrow-color" href="#menu"></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -66,7 +77,7 @@
           <div class="cards">
             <div class="card">
               <div class="card__image-holder">
-                <img class="card__image block-pointer" src="https://source.unsplash.com/300x225/?beach" alt="beach" />
+                <img class="card__image block-pointer" src="assets/images/milkshake1.jpg" width="300" height="225" alt="Milkshake" />
               </div>
               <div class="card-title">
                 <a href="#" class="toggle-info btn">
@@ -108,7 +119,7 @@
 
             <div class="card">
               <div class="card__image-holder">
-                <img class="card__image block-pointer" src="https://source.unsplash.com/300x225/?wave" alt="pizza-cone" />
+                <img class="card__image block-pointer" src="assets/images/pizza1.png" width="300" height="225" alt="Pizza Cone" />
               </div>
               <div class="card-title">
                 <a href="#" class="toggle-info btn">
@@ -141,7 +152,7 @@
 
             <div class="card">
               <div class="card__image-holder">
-                <img class="card__image block-pointer" src="https://source.unsplash.com/300x225/?mountain" alt="mountain" />
+                <img class="card__image block-pointer" src="assets/images/icecream2.jpg" width="300" height="225" alt="Sorvete" />
               </div>
               <div class="card-title">
                 <a href="#" class="toggle-info btn">
