@@ -1,1 +1,25 @@
-$(document).ready(function(){$(".first-button").on("click",function(){$(".animated-icon1").toggleClass("open")})}),$(document).ready(function(){var s=10;$("div.card").click(function(o){o.preventDefault();var t=!1;$(this).hasClass("show")&&(t=!0),$("div.cards").hasClass("showing")?($("div.card.show").removeClass("show"),t?$("div.cards").removeClass("showing"):$(this).css({zIndex:s}).addClass("show"),s++):($("div.cards").addClass("showing"),$(this).css({zIndex:s}).addClass("show"),s++)})}),$(window).scroll(function(){$(this).scrollTop()>=50?$("#return-to-top").fadeIn(200):$("#return-to-top").fadeOut(200)}),$("#return-to-top").click(function(){$("body,html").animate({scrollTop:0},500)}),$(".redirect").click(function(){return window.open("https://www.sistemadelivery.com/ordering/?restaurant_uid=d20b6424-102c-43b6-9920-ec26799d40ff&_sp=b4a3c0b6-d245-4a8c-a068-e23bd5e57f37.1597945023147&site_url=fallback"),!1});
+$(document).ready(function () {
+  $(".first-button").on("click", function () {
+    $(".animated-icon1").toggleClass("open");
+  });
+}),
+  $(document).ready(function () {
+    var s = 10;
+    $("div.card").click(function (o) {
+      o.preventDefault();
+      var t = !1;
+      $(this).hasClass("show") && (t = !0),
+        $("div.cards").hasClass("showing")
+          ? ($("div.card.show").removeClass("show"), t ? $("div.cards").removeClass("showing") : $(this).css({ zIndex: s }).addClass("show"), s++)
+          : ($("div.cards").addClass("showing"), $(this).css({ zIndex: s }).addClass("show"), s++);
+    });
+  }),
+  $(window).scroll(function () {
+    $(this).scrollTop() >= 50 ? $("#return-to-top").fadeIn(200) : $("#return-to-top").fadeOut(200);
+  }),
+  $("#return-to-top").click(function () {
+    $("body,html").animate({ scrollTop: 0 }, 500);
+  }),
+  $(".redirect").click(function () {
+    return window.open("https://www.gloriafood.com/ordering/restaurant/menu?restaurant_uid=ecc58229-5b04-4089-844d-d81561e1e31f&client_is_mobile=true&glfa_cid=656085509.1599496285&glfa_t=1599669676275"), !1;
+  });
